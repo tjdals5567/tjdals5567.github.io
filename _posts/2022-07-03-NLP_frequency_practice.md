@@ -1,3 +1,9 @@
+---
+layout: single
+title:  "자연어 빈도분석 연습문제 - 빅리더 7일차"
+categories : nlp
+---
+
 # 빈도분석 연습문제
 
 - 뉴스데이터로 빈도분석 연습문제를 풀어봅시다.
@@ -584,7 +590,7 @@ make_barplot(data1_high_morph)
 
 
     
-![png](output_41_0.png)
+![png](../assets/imgaes/output_41_0.png)
     
 
 
@@ -626,7 +632,7 @@ make_barplot(data2_high_morph)
 
 
     
-![png](output_45_0.png)
+![png](../assets/imgaes/output_45_0.png)
     
 
 
@@ -637,7 +643,7 @@ make_barplot(data2_low_morph)
 
 
     
-![png](output_46_0.png)
+![png](../assets/imgaes/output_46_0.png)
     
 
 
@@ -865,7 +871,7 @@ make_barplot(df_2018_high_morph)
 
 
     
-![png](output_56_0.png)
+![png](../assets/imgaes/output_56_0.png)
     
 
 
@@ -876,7 +882,7 @@ make_barplot(df_2019_high_morph)
 
 
     
-![png](output_57_0.png)
+![png](../assets/imgaes/output_57_0.png)
     
 
 
