@@ -601,7 +601,7 @@ make_barplot(data1_low_morph)
 
 
     
-![png](output_42_0.png)
+![png](../image/output_42_0.png)
     
 
 
@@ -632,7 +632,7 @@ make_barplot(data2_high_morph)
 
 
     
-![png](../assets/imgaes/output_45_0.png)
+![png](../image/output_45_0.png)
     
 
 
@@ -643,7 +643,7 @@ make_barplot(data2_low_morph)
 
 
     
-![png](../assets/imgaes/output_46_0.png)
+![png](../image/output_46_0.png)
     
 
 
@@ -871,7 +871,7 @@ make_barplot(df_2018_high_morph)
 
 
     
-![png](../assets/imgaes/output_56_0.png)
+![png](../image/output_56_0.png)
     
 
 
@@ -882,7 +882,7 @@ make_barplot(df_2019_high_morph)
 
 
     
-![png](../assets/imgaes/output_57_0.png)
+![png](../image/output_57_0.png)
     
 
 
