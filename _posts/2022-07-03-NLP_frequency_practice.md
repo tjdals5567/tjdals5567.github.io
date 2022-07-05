@@ -590,7 +590,7 @@ make_barplot(data1_high_morph)
 
 
     
-![png](../image/output_41_0.png)
+![output_41_0](https://user-images.githubusercontent.com/84655119/177345546-c5ee4963-23a1-490a-bb7f-fb9c8bb31ed5.png)
     
 
 
