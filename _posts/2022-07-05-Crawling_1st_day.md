@@ -12,7 +12,7 @@ categories : Crawling
 
 ![png](../assets/images/2022-07-05-0.png)
 
-<그림설명>
+그림설명
 
 1. 사람이 Selenium에게 특정 웹 페이지를 크롤링하라고 명령한다.
 2. Selenium은 소스코드에 지정된 Web Driver를 실행하여 웹 페이지에 접속한다.
