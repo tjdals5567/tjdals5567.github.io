@@ -1,12 +1,18 @@
+---
+layout: single
+title:  "웹크롤링 part1 - 빅리더 9일차"
+categories : crawling
+---
+
 # 웹 크롤링
 
 ## Chap 1. Selenium 설치 및 예제
 
 ### 1. 웹크롤링의 원리
 
-![image.png](attachment:image.png)
+![png](../image/2022-07-05-0.png)
 
-<그림설명>
+그림설명
 
 1. 사람이 Selenium에게 특정 웹 페이지를 크롤링하라고 명령한다.
 2. Selenium은 소스코드에 지정된 Web Driver를 실행하여 웹 페이지에 접속한다.
@@ -37,24 +43,24 @@ Selenium의 최근버전은 변경된 문법을 써야하기 때문에 구 문�
 
 * Step 2. 현재 컴퓨터에 설치된 크롬 버전 확인합니다.
 
-![image.png](attachment:image.png)
+![png](../image/2022-07-05-1.png)
 
     버전의 XXX.X와 같은 버전의 웹드라이버를 설치합니다.
 
-![image.png](attachment:image.png)
+![png](../image/2022-07-05-2.png)
 
     저는 103.0 버전이기에 103.0.5060.53을 다운로드하였습니다.  
     XXX.X 까지만 같아도 되니 같은 버전이 여러개이면 아무거나 다운받아도 무방합니다.
 
 * Step 3. 윈도우용 chromedriver_win32.zip 다운로드 및 압축풀기
 
-![image.png](attachment:image.png)
+![png](../image/2022-07-05-3.png)
 
     mac이신 분들은 mac으로 다운받아야 합니다.
 
 * Step 4. 파일 위치 변경 (선택)
 
-![image.png](attachment:image.png)
+![png](../image/2022-07-05-4.png)
 
     크롬드라이버의 위치가 Selenium 실행시 경로로 지정해줘야 합니다. 따라서 저는 코드를 간결하게 하기 위해 C드라이브 py_temp위치에 저장하였습니다.
 
@@ -69,7 +75,7 @@ Selenium의 최근버전은 변경된 문법을 써야하기 때문에 구 문�
 
 * 검색을 하기 위해선 검색칸의 id 속성값이 필요합니다.
 
-![image.png](attachment:image.png)
+![png](../image/2022-07-05-5.png)
 
     1번을 누르고 2번위에 커서를 올리면 id의 속성값을 확인할 수 있습니다.  
     이는 곧 Selenium에서 검색값을 입력하는 입력칸의 위치가 됩니다.
@@ -122,7 +128,7 @@ element.send_keys("\n")
       driver.find_element_by_id("query").click( )
     
 
-![image.png](attachment:image.png)
+![png](../image/2022-07-05-6.png)
 
     결과물이 잘 출력되는 것을 확인할 수 있습니다.
 
