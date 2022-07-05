@@ -1,8 +1,13 @@
 ---
 layout: single
-title:  "빅리더 웹크롤링 1일차"
-categories : Crawling
+title:  "포스트 규칙을 생활화"
+categories : ㅄ
+tag : [ㅂ, ㅅ, 성, 민]
 ---
+
+
+
+
 
 # 웹 크롤링
 
@@ -10,9 +15,9 @@ categories : Crawling
 
 ### 1. 웹크롤링의 원리
 
-![png](../assets/images/2022-07-05-0.png)
+![image.png](attachment:image.png)
 
-그림설명
+<그림설명>
 
 1. 사람이 Selenium에게 특정 웹 페이지를 크롤링하라고 명령한다.
 2. Selenium은 소스코드에 지정된 Web Driver를 실행하여 웹 페이지에 접속한다.
@@ -43,24 +48,24 @@ Selenium의 최근버전은 변경된 문법을 써야하기 때문에 구 문�
 
 * Step 2. 현재 컴퓨터에 설치된 크롬 버전 확인합니다.
 
-![png](../assets/images/2022-07-05-1.png)
+![image.png](attachment:image.png)
 
     버전의 XXX.X와 같은 버전의 웹드라이버를 설치합니다.
 
-![png](../assets/images/2022-07-05-2.png)
+![image.png](attachment:image.png)
 
     저는 103.0 버전이기에 103.0.5060.53을 다운로드하였습니다.  
     XXX.X 까지만 같아도 되니 같은 버전이 여러개이면 아무거나 다운받아도 무방합니다.
 
 * Step 3. 윈도우용 chromedriver_win32.zip 다운로드 및 압축풀기
 
-![png](../assets/images/2022-07-05-3.png)
+![image.png](attachment:image.png)
 
     mac이신 분들은 mac으로 다운받아야 합니다.
 
 * Step 4. 파일 위치 변경 (선택)
 
-![png](../assets/images/2022-07-05-4.png)
+![image.png](attachment:image.png)
 
     크롬드라이버의 위치가 Selenium 실행시 경로로 지정해줘야 합니다. 따라서 저는 코드를 간결하게 하기 위해 C드라이브 py_temp위치에 저장하였습니다.
 
@@ -75,7 +80,7 @@ Selenium의 최근버전은 변경된 문법을 써야하기 때문에 구 문�
 
 * 검색을 하기 위해선 검색칸의 id 속성값이 필요합니다.
 
-![png](../assets/images/2022-07-05-5.png)
+![image.png](attachment:image.png)
 
     1번을 누르고 2번위에 커서를 올리면 id의 속성값을 확인할 수 있습니다.  
     이는 곧 Selenium에서 검색값을 입력하는 입력칸의 위치가 됩니다.
@@ -116,9 +121,10 @@ element.send_keys("\n")
      이 크롤러는 RISS 사이트의 논문 및 학술자료 수집용 웹크롤러입니다.
     ====================================================================================================
     1.수집할 자료의 키워드는 무엇입니까?(여러개일 경우 , 로 구분하여 입력): 전염병
-    
-    
-    
+
+
+​    
+​    
 
     C:\Users\HONGSU~1\AppData\Local\Temp/ipykernel_16224/2475655519.py:17: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
       driver = webdriver.Chrome(chrome_path)
@@ -126,9 +132,9 @@ element.send_keys("\n")
       element = driver.find_element_by_id("query")
     C:\Users\HONGSU~1\AppData\Local\Temp/ipykernel_16224/2475655519.py:26: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
       driver.find_element_by_id("query").click( )
-    
 
-![png](../assets/images/2022-07-05-6.png)
+
+![image.png](attachment:image.png)
 
     결과물이 잘 출력되는 것을 확인할 수 있습니다.
 
@@ -174,7 +180,7 @@ print( soup.find('p') )
 
     <title> HTML 연습 </title>
     <p align="center"> text 1 </p>
-    
+
 
 find_all() 함수 예제
 
@@ -208,7 +214,7 @@ print( '세번째 find_all() 함수 :' ,soup.find_all('p')[2] )
     첫번째 find_all() 함수 : <p align="center"> text 1 </p>
     두번째 find_all() 함수 : <p align="center"> text 2 </p>
     세번째 find_all() 함수 : <p align="center"> text 3 </p>
-    
+
 
 select() 함수 예제
 
@@ -396,9 +402,10 @@ time.sleep(2)
      이 크롤러는 riss 사이트의 논문 자료 수집용 웹크롤러입니다.
     ====================================================================================================
     1.수집할 자료의 키워드는 무엇입니까?(예: 전염병): 전염병
-    
-    
-    
+
+
+​    
+​    
 
 
 ```python
@@ -412,6 +419,6 @@ print(content_1.get_text().replace("\n"," ").strip())
 ```
 
     1   전염병 모델의 연대기적 분석과 후속모델에 대한 고찰  이상원 高麗大學校 大學院 2012 국내석사  RANK : 27772927    원문보기 목차검색조회  음성듣기             전염병은 고대 시대부터 줄곧 인간을 위협해왔으며, 기원전 430년부터 428년에 발생한 아테네지역의 전염병이 Thucydides에 의해 보고된 이후, 전 세계적으로 많은 사망자를 발생하게 한 전염병들이 다수의 생물학자들에 의해 분석되어 졌다. 전염병에 대한 연구가 2차 세계대전 이전에는 단순히 전염병을 관찰하는데 그친 반면, 2차 대전이후에는 전염병을 무기화 하고 그것을 어떻게 통제할 것인지에 초점이 맞춰지기 시작하였다. 또한 페니실린에 발견으로 이러한 질병을 통제하는 방법이 다변화되었으며, Bernoulli가 천연두의 확산에 대해 우두접종의 긍정적인 효과를 보고 한 후, Kermack-McKendrick에 의해 수학에 기초를 둔 모델링이 시작되었다. 이는 생물학적인 분석에 수학적인 사고를 접목하여, 전염병을 좀 더 체계적으로 분석하고자 하는 시도로 볼 수 있다.   Anderson-May는 좀 더 이러한 연구들을 발전시켰으며, 현재 많은 연구자들에 의해 새로운 발생하는 전염병들에 대해 연구가 이루어지고 있다. 특히, 상미분방정식과 편미분방정식을 도구로 하여 여러 가지 형태의 전염병 모델을 발전시킴으로써 전염병을 효과적으로 통제할 수 있는 연구가 활발히 진행되어 지고 있다.  그동안 많은 연구에서 전염병을 통제하는데 가장 중요한 요소는 전염병 전파에 의해 영향 받지 않는 점(Disease free equilibrium : DFE)에 대한 의 값으로서, 그 값이  보다 크거나 혹은 작은 경우에 따라 전염병의 통제 여부를 판단하여 왔으나, 최근에는 통제 재생산률(Control reproduction rate : 모델링에서 각종 통제 변수들에 의해 변동되어지는 질병이 전파되는 비율)라는 값이 전염병을 통제하는 새로운 요소로 연구되어 지고 있다.     본 논문에서는 지금까지 발전되어온 수많은 논문들에서 큰 틀을 이루고 있는 전염병에 대한 모델들을 연대기적으로 나열하고 분석함으로써, 기존의 모델에서 중요한 변수를 설정하는 방법을 고찰하고, 향후 고려할 수 있는 발전된 모델들에 대해 예측해 본다.
-    
+
 
 잘 출력되었음을 확인할 수 있습니다.
