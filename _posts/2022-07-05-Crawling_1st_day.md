@@ -10,7 +10,7 @@ categories : crawling
 
 ### 1. 웹크롤링의 원리
 
-![png]("../image/2022-07-05-0.png")
+![png](../image/2022-07-05-0.png)
 
 그림설명
 
