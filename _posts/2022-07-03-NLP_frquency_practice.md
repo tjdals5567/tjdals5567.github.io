@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "포스트 규칙을 생활화"
+title:  "자연어 빈도분석 연습문제"
 categories : NLP
 ---
 
