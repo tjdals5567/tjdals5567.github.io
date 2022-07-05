@@ -590,7 +590,7 @@ make_barplot(data1_high_morph)
 
 
     
-![png](../imgae/output_41_0.png)
+![png](../image/output_41_0.png)
     
 
 
