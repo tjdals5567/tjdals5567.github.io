@@ -601,7 +601,7 @@ make_barplot(data1_low_morph)
 
 
     
-![png](../image/output_42_0.png)
+![output_42_0](https://user-images.githubusercontent.com/84655119/177436500-6b6289ee-341c-4529-b921-bffc028ce9a2.png)
     
 
 
@@ -632,7 +632,7 @@ make_barplot(data2_high_morph)
 
 
     
-![png](../image/output_45_0.png)
+![output_45_0](https://user-images.githubusercontent.com/84655119/177436501-0de9f415-3773-41f4-ac0d-e145b19efd0f.png)
     
 
 
@@ -643,7 +643,7 @@ make_barplot(data2_low_morph)
 
 
     
-![png](../image/output_46_0.png)
+![output_46_0](https://user-images.githubusercontent.com/84655119/177436504-b11035d9-3732-480a-bdb8-3fee7248468c.png)
     
 
 
@@ -871,7 +871,7 @@ make_barplot(df_2018_high_morph)
 
 
     
-![png](../image/output_56_0.png)
+![output_56_0](https://user-images.githubusercontent.com/84655119/177436495-538b154b-a6b6-4a05-bac9-b9910d8c15aa.png)
     
 
 
@@ -882,7 +882,7 @@ make_barplot(df_2019_high_morph)
 
 
     
-![png](../image/output_57_0.png)
+![output_57_0](https://user-images.githubusercontent.com/84655119/177436498-c764285c-92e2-4bc4-89f2-57f5328918e9.png)
     
 
 
