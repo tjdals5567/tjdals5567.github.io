@@ -2,6 +2,12 @@
 layout: single
 title:  "자연어 빈도분석 연습문제 - 빅리더 7일차"
 categories : nlp
+tags:
+  - BigLeader2022
+  - NLP
+  - day7
+toc: true
+toc_sticky: true
 ---
 
 # 빈도분석 연습문제
