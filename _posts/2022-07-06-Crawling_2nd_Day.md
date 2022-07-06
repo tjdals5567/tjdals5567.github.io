@@ -1,3 +1,15 @@
+---
+layout: single
+title:  "웹크롤링 part2 - 빅리더 10일차"
+categories : crawling
+tags:
+  - BigLeader2022
+  - Crawling
+  - day10
+toc: true
+toc_sticky: true
+---
+
 # Chap 3. 항목별 내용 추출 후 다양한 형식의 파일로 저장하기
 
 ## 1. 작업 개요
@@ -633,7 +645,7 @@ Epidemic
     3. 상위 15건의 블로그의 날짜, 작성자, 포스팅 제목, 요약 순으로 크롤링합니다.
     4. csv, xls 파일로 저장합니다.
 
-![image.png](attachment:image.png)
+![2022-07-06-0](https://user-images.githubusercontent.com/84655119/177511504-84b0a829-a16b-42f9-8412-8bcf57d0b8b8.png)
 
 ### 실습
 
