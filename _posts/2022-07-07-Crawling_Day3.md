@@ -1,8 +1,20 @@
+---
+layout: single
+title:  "웹크롤링 part3 - 빅리더 11일차"
+categories : crawling
+tags:
+  - BigLeader2022
+  - Crawling
+  - day11
+toc: true
+toc_sticky: true
+---
+
 # Chap 5. 다양한   댓글    및   리뷰    정보   수집하기
 
 - 이번 시간에 예제로 사용할 내용은 네이버 영화 리뷰에 작성된 댓글을 수집하는 것입니다.
 
-![image-2.png](attachment:image-2.png)
+![2022-07-07-0](https://user-images.githubusercontent.com/84655119/177772761-26b07957-76c5-4611-aef0-d4f64a5c19f3.png)
 
 - 우리가 수집할 내용을 정리하면 아래와 같습니다.
     1. 별점
@@ -103,10 +115,8 @@ score2=[]
 review2=[]
 writer2=[]
 wdate2=[]
-#gogam2=[]
 g_gogam2=[]
 b_gogam2=[]
-#dwlist2=[]
 
 count = 0         # 크롤링 건수 카운트 변수
 click_count = 1   # 페이지 번호
@@ -261,10 +271,8 @@ score2=[]
 review2=[]
 writer2=[]
 wdate2=[]
-#gogam2=[]
 g_gogam2=[]
 b_gogam2=[]
-#dwlist2=[]
 
 count = 0         # 크롤링 건수 카운트 변수
 click_count = 1   # 페이지 번호
@@ -340,6 +348,8 @@ naver_movie.to_csv(f'{query_txt}평점리뷰.csv',encoding="utf-8-sig",index=Tru
 # 엑셀 형태로 저장하기
 naver_movie.to_excel(f'{query_txt}평점리뷰.xls' ,index=True,engine='openpyxl')
 ```
+<details>
+<summary>코드결과 펼치기</summary>
 
     ================================================================================
     연습문제 :네이버 영화 리뷰 정보 수집하기 
@@ -535,7 +545,8 @@ naver_movie.to_excel(f'{query_txt}평점리뷰.xls' ,index=True,engine='openpyxl
     4.작성일자: 2022.05.19 00:16
     5.공감: 715
     6.비공감: 43
-    
+
+</details>
 
 최근에 나온 범죄도시2의 리뷰로 크롤링 하였습니다.
 
