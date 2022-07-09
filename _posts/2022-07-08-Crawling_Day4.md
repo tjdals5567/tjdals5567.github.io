@@ -1,11 +1,11 @@
 ---
 layout: single
-title:  "웹크롤링 part3 - 빅리더 11일차"
+title:  "웹크롤링 part4 - 빅리더 12일차"
 categories : [bigleader,crawling]
 tags:
   - BigLeader2022
   - Crawling
-  - day11
+  - day12
 toc: true
 toc_sticky: true
 ---
