@@ -1,3 +1,16 @@
+---
+layout: single
+title:  "웹크롤링 part3 - 빅리더 11일차"
+categories : [bigleader,crawling]
+tags:
+  - BigLeader2022
+  - Crawling
+  - day11
+toc: true
+toc_sticky: true
+---
+
+
 # Chap 6. 다양한 이미지 수집 크롤러 만들기
 
 ## 1. 이번    장에서    배울   내용    소개
@@ -91,11 +104,11 @@ for a in range(0,page_cnt) :
 
 휴넷 사이트의 경우 아래 그림과 같이 한 페이지에 12개의 그림이 있고 다음 페이지로 가고 싶을 경우 아래의 **펼쳐보기** 버튼을 클릭해야 합니다.
 
-![image.png](attachment:image.png)
+![2022-07-08-0](https://user-images.githubusercontent.com/84655119/178096570-ef252d07-ddf6-424b-9125-75ba29a18bb9.png)
 
 또한 크롤링의 정보가 사용자가 원하는 정보 수 보다 작을 경우 아래와 같이 alert창이 뜨는데 driver.switch_to_alert()로 창을 변환 후 확인을 누르는 작업입니다.
 
-![image.png](attachment:image.png)
+![2022-07-08-1](https://user-images.githubusercontent.com/84655119/178096575-6c56fd52-6d2e-4ef3-beae-42ffe5f1be94.png)
 
 ### Step 6. 이미지 추출하여 저장하기 
 
@@ -126,7 +139,7 @@ for i in img_src :
 
 폴더도 잘 만들고 src로 img url도 잘 긁어왔어도 에러가 생길 수 있습니다. 아래의 사진을 보겠습니다.
 
-![image.png](attachment:image.png)
+![2022-07-08-2](https://user-images.githubusercontent.com/84655119/178096576-c664a3c1-23fc-498c-ac45-1c20bd3acedd.png)
 
 위 그림의 첫번째 줄과 마지막 줄처럼 이미지 주소에서 한글이 있는 부분 보이죠?
 이럴 경우 urllib.request.urlretrieve( ) 함수가 한글을 제대로 인식을 못해서 오류가 발생합니다. 그래서 예외처리를 사용하여 건너뛰거나 인코딩을 지정하는 방법으로 이미지 이름을 인식시켜서 다운로드를 받아야 하는데 이 부분의 코드가 아래와 같습니다.
@@ -296,7 +309,7 @@ driver.close( )
 
 ### 실행 결과 확인
 
-![image.png](attachment:image.png)
+![2022-07-08-3](https://user-images.githubusercontent.com/84655119/178096578-2b4bae3f-8b69-4d82-837d-7d43b00bdd73.png)
 
 실행이 잘 동작하는 걸 확인 할 수 있습니다.
 
@@ -671,7 +684,7 @@ driver.close( )
 
 ### 실행 결과 확인
 
-![image.png](attachment:image.png)
+![2022-07-08-4](https://user-images.githubusercontent.com/84655119/178096580-84e9ae78-0558-4fdc-96ed-cf1c87438220.png)
 
 코드는 잘 실행 되었지만 호랑이가 있는 경우도 볼 수 있습니다.  
 아마 호랑이가 고양이과라서 같이 검색이 된게 아닐까 하는 생각을 해 봅니다.
